@@ -14,9 +14,16 @@ jobs:
 
       - name: Generate Contributors List
         run: |
-          echo "<!-- START: CONTRIBUTORS -->" > profile/README.md
-          curl -s "https://api.github.com/orgs/MelvanTeam/members" | jq -r '.[].login' | awk '{print "- [" $0 "](https://github.com/" $0 ")"}' >> profile/README.md
-          echo "<!-- END: CONTRIBUTORS -->" >> profile/README.md
+          # Buat file sementara untuk menyimpan daftar anggota
+          echo "<!-- START: CONTRIBUTORS -->" > profile/contributors.md
+          curl -s "https://api.github.com/orgs/MelvanTeam/members" | jq -r '.[].login' | awk '{print "- [" $0 "](https://github.com/" $0 ")"}' >> profile/contributors.md
+          echo "<!-- END: CONTRIBUTORS -->" >> profile/contributors.md
+          
+          # Gabungkan file sementara dengan Readme.md yang sudah ada
+          cat profile/contributors.md >> profile/README.md
+          
+          # Hapus file sementara
+          rm profile/contributors.md
 
       - name: Commit and Push Changes
         run: |
