@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '*/15 * * * *'
 
 jobs:
   update-contributors:
@@ -27,9 +29,11 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config user.name "CoeF"
-          git config user.email "xnotforyou@gmail.com"
+          git config user.name "KetuaNakal"
+          git config user.email "mramacat@gmail.com"
           git add profile/README.md
           git commit -m "Update contributors list"
-          git push
+          git push --set-upstream origin ${{ github.ref }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
