@@ -49,3 +49,9 @@
 - [AyiinXd](https://github.com/AyiinXd)
 - [CoeF](https://github.com/CoeF)
 <!-- END: CONTRIBUTORS -->
+<!-- START: CONTRIBUTORS -->
+- [AyiinXd](https://github.com/AyiinXd)
+- [CoeF](https://github.com/CoeF)
+- [hitokizzy](https://github.com/hitokizzy)
+- [zigaz23](https://github.com/zigaz23)
+<!-- END: CONTRIBUTORS -->
