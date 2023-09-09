@@ -1,5 +1,4 @@
 name: Update Contributors
-
 on:
   push:
     branches:
