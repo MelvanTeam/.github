@@ -41,3 +41,8 @@
 </table>
 
 <hr>
+
+## Anggota Organisasi
+
+<!-- START: CONTRIBUTORS -->
+<!-- END: CONTRIBUTORS -->
