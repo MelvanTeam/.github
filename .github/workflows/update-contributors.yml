@@ -22,7 +22,7 @@ jobs:
         run: |
           git config user.name "CoeF"
           git config user.email "xnotforyou@gmail.com"
-          git add README.md
+          git add profile/README.md
           git commit -m "Update contributors list"
           git push
 
