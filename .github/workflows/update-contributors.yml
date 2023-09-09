@@ -15,7 +15,7 @@ jobs:
       - name: Generate Contributors List
         run: |
           echo "<!-- START: CONTRIBUTORS -->" > profile/README.md
-          curl -s "https://api.github.com/orgs/MelvanTeam/members" | jq -r '.[].login' | awk '{print "- [" $0 "](https://github.com/" $0 ")"}' >> README.md
+          curl -s "https://api.github.com/orgs/MelvanTeam/members" | jq -r '.[].login' | awk '{print "- [" $0 "](https://github.com/" $0 ")"}' >> profile/README.md
           echo "<!-- END: CONTRIBUTORS -->" >> profile/README.md
 
       - name: Commit and Push Changes
