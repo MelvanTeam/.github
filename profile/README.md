@@ -45,15 +45,9 @@
 ## Anggota Organisasi
 
 <!-- START: CONTRIBUTORS -->
-- [AyiinXd](https://github.com/AyiinXd)
-- [CoeF](https://github.com/CoeF)
-- [hitokizzy](https://github.com/hitokizzy)
-- [zigaz23](https://github.com/zigaz23)
-- [reysiregar](https://github.com/reysiregar)
-<!-- END: CONTRIBUTORS -->
-<!-- START: CONTRIBUTORS -->
-- [AyiinXd](https://github.com/AyiinXd)
-- [CoeF](https://github.com/CoeF)
-- [hitokizzy](https://github.com/hitokizzy)
-- [zigaz23](https://github.com/zigaz23)
+- [AyiinXd](https://github.com/AyiinXd) - Ayin
+- [CoeF](https://github.com/CoeF) - Alfa
+- [zigaz23](https://github.com/zigaz23) - Ari
+- [hitokizzy](https://github.com/hitokizzy) - Izzy
+- [reysiregar](https://github.com/reysiregar) - Levina
 <!-- END: CONTRIBUTORS -->
