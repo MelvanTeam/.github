@@ -1,3 +1,5 @@
+![Text melvan SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+Tᴏ+About+Melvan+Team+...;Thanks+To+Support+...)
+
 <h1 align="center">
   <a href="https://github.com/MelvanTeam">
     <img src="https://telegra.ph/file/1d266eeb3785aae0bd52a.gif" alt="Logo" >
@@ -30,8 +32,7 @@
 </center>
 <br>
 <div align="center">
-  Melvan Team 
-  <br />
+ Join To Group
   <br />
   ᴋᴀᴍɪ ᴀᴅᴀʟᴀʜ sᴇᴋᴇʟᴏᴍᴘᴏᴋ ᴏʀᴀɴɢ ʏᴀɴɢ sᴜᴋᴀ ʙᴇʀsᴇɴᴀɴɢ-sᴇɴᴀɴɢ ☀️
   <br />
